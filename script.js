@@ -32,10 +32,10 @@ function printEvents() {
           else {dynamicItems += `greenbackground">`};
 
           // Set event text if not null
-          if (i===9){dynamicItems += `${events[0]}`}
-          else if (i===10){dynamicItems += `${events[1]}`}
-          else if (i===11){dynamicItems += `${events[2]}`}
-          else if (i===12){dynamicItems += `${events[3]}`};
+          if (i==9){dynamicItems += `${events[0]}`}
+          else if (i==10){dynamicItems += `${events[1]}`}
+          else if (i==11){dynamicItems += `${events[2]}`}
+          else if (i==12){dynamicItems += `${events[3]}`};
         
         dynamicItems += `</textarea><button class="col-sm-2 saveBtn" id="save"><img src="save.jpg" width="25px" height="25px" /></button></div>`
       //console.log(dynamicItems);
@@ -50,11 +50,11 @@ function printEvents() {
           else {dynamicItems += `greenbackground">`};
 
                     // Set event text if not null
-                    if (i===1){dynamicItems += `${events[4]}`}
-                    else if (i===2){dynamicItems += `${events[5]}`}
-                    else if (i===3){dynamicItems += `${events[6]}`}
-                    else if (i===4){dynamicItems += `${events[7]}`}
-                    else if (i===5){dynamicItems += `${events[8]}`};
+                    if (i==1){dynamicItems += `${events[4]}`}
+                    else if (i==2){dynamicItems += `${events[5]}`}
+                    else if (i==3){dynamicItems += `${events[6]}`}
+                    else if (i==4){dynamicItems += `${events[7]}`}
+                    else if (i==5){dynamicItems += `${events[8]}`};
 
       dynamicItems += `</textarea><button class="col-sm-2 saveBtn" id="save"><img src="save.jpg" width="25px" height="25px" /></button></div>`
      } // End PM Loop

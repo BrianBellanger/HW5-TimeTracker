@@ -37,7 +37,7 @@ function printEvents() {
           else if (i===11){dynamicItems += `${events[2]}`}
           else if (i===12){dynamicItems += `${events[3]}`};
         
-        dynamicItems += `</textarea><button class="col-sm-2 saveBtn" id="save">Save</button></div>`
+        dynamicItems += `</textarea><button class="col-sm-2 saveBtn" id="save"><img src="save.jpg" width="25px" height="25px" /></button></div>`
       //console.log(dynamicItems);
     } // End AM Loop
 
@@ -56,7 +56,7 @@ function printEvents() {
                     else if (i===4){dynamicItems += `${events[7]}`}
                     else if (i===5){dynamicItems += `${events[8]}`};
 
-      dynamicItems += `</textarea><button class="col-sm-2 saveBtn" id="save">Save</button></div>`
+      dynamicItems += `</textarea><button class="col-sm-2 saveBtn" id="save"><img src="save.jpg" width="25px" height="25px" /></button></div>`
      } // End PM Loop
 
     var containerEl = $(".container");

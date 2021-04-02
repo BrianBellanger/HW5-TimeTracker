@@ -13,6 +13,18 @@ textarea {
   padding: 10px;
 }
 
+.greybackground {
+  background:grey;
+}
+
+.redbackground {
+  background:red;
+}
+
+.greenbackground {
+  background: green;
+}
+
 .jumbotron {
   text-align: center;
   background-color: transparent;

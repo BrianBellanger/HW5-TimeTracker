@@ -11,9 +11,13 @@ var events = ["","","","","","","","",""]
 // Declare Functions
 
 function getEvents() {
-    events = JSON.parse(localStorage.getItem("events"));
+    var items=JSON.parse(localStorage.getItem("events"));
+    if (items){
+    events=items
+    console.log(items);
+    }else{console.log('no events yet')}
     console.log(events);
-      printEvents();
+    printEvents();
   }; // End getEvents
 
 

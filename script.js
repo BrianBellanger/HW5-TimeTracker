@@ -50,7 +50,7 @@ function printEvents() {
         <div class="col-sm-2 hour">${i} pm</div>
         <textarea id="${i}" class="col-sm-8 description `
           if (i < curHour){dynamicItems += `greybackground">`}
-          else if (i = curHour){dynamicItems += `redbackground">`}
+          else if (i === curHour){dynamicItems += `redbackground">`}
           else {dynamicItems += `greenbackground">`};
 
                     // Set event text if not null
